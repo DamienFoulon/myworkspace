@@ -1,0 +1,94 @@
+/* MOBILE */
+
+@media screen and (min-width: 370px) {
+    section {
+        margin-bottom: 5em;
+    }
+    .picture {
+        position: absolute;
+        display: block;
+        margin-left: 4em;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .blob {
+        display: block;
+        width: 250px;
+        height: 250px;
+    }
+
+    .text {
+        font-size: 2.5em;
+        color: #2E2F5B;
+        margin-left: 1em;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1440px) {
+    header {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    section {
+        margin-bottom: 5em;
+        position: relative;
+    }
+
+    .right .picture {
+        position: absolute;
+        display: block;
+        margin-left: 4em;
+        width: 400px;
+        height: 400px;
+    }
+
+    .right .blob {
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+
+    .right .text {
+        position: absolute;
+        top: 0%;
+        left: 25%;
+        font-size: 6em;
+        color: #2E2F5B;
+        margin-left: 1em;
+    }
+
+    .left .picture {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-right: 4em;
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+
+    .left .blob {
+        display: block;
+        float: right;
+        width: 400px;
+        height: 400px;
+    }
+
+    .left .text {
+        text-align: end;
+        position: absolute;
+        top: 0%;
+        right: 30%;
+        font-size: 6em;
+        color: #2E2F5B;
+        margin-left: 1em;
+    }
+    .clear {
+        clear: both;
+    }
+}
